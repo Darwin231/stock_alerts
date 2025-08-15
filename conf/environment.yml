@@ -1,0 +1,8 @@
+name: coffee_roast_nn
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip:
+    - -r requirements.txt
